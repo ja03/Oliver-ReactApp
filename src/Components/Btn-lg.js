@@ -8,6 +8,7 @@ const Btn_lg = ({ btn_text, fill, animate, setWidth})=>{
     return (
         <button
             className={`py-2 ${btn_width} px-4 text-sm rounded-lg ${colors} ${bg_animate} border-cl_3 border-2  transition-colors duration-300 cursor-pointer`}
+            
         >
             {btn_text}
         </button>
